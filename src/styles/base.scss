@@ -1,0 +1,23 @@
+html {
+  font-size: 50px;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 576/375 * 50px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 768/375 * 50px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 1200/375 * 50px;
+  }
+}
+
+body {
+  font-size: 16px;
+}
